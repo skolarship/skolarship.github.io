@@ -1,1 +1,0 @@
-# skolarship.github.io
