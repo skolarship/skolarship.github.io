@@ -130,3 +130,35 @@ nav ul li a:hover {
     text-align: center;
     margin-top: 40px;
 }
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-image {
+    border: 2px dashed #ccc;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.preview-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.job-card {
+    width: 30%; /* Adjust as needed */
+    text-align: center;
+}
+
+.job-card p {
+    margin-top: 20px;
+}
