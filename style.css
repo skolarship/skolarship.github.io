@@ -1,81 +1,68 @@
+/* Global Variables */
 :root {
     --color-black: #000000;
     --color-white: #ffffff;
     --color-blue: #01baef;
-    --color-turquoise: #0cbaba;
     --color-dark-purple: #380036;
-    --color-medium-purple: #26081c;
-    --color-light-purple: #150811;
 }
 
-body, h1, h2, h3, p, ul {
+/* Default Styles */
+body {  
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
 
-body {
-    background-color: #fafafa;
-    color: #333;
+header, main, footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-header, nav, main, footer {
-    max-width: 900px;
-    margin: 30px auto;
-}
-
-header h1, header h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: normal;
+/* Navigation Styles */
+nav {
+    background-color: var(--color-white);
+    padding: 10px 0;
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
-    color: #333;
+    color: var(--color-dark-purple);
     text-decoration: none;
-    padding: 5px;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 nav ul li a:hover {
-    color: #555;
+    color: var(--color-blue);
 }
 
-main {
-    padding: 30px 0;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 0.9em;
-    color: #888;
-}
-
+/* Button Styles */
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--color-white);
+    color: var(--color-dark-purple);
+    padding: 10px 15px;
     text-decoration: none;
-    border: none;
-    border-radius: 3px;
-    transition: background-color 0.3s;
+    border: 2px solid var(--color-dark-purple);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: var(--color-dark-purple);
+    color: var(--color-white);
 }
