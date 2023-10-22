@@ -102,3 +102,31 @@ nav ul li a:hover {
     text-align: center;
     margin-top: 20px;
 }
+
+.intro-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-item {
+    width: 45%; /* Adjust based on your preference */
+    margin-bottom: 40px;
+}
+
+.feature-image {
+    border: 2px dashed #ccc;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-section {
+    text-align: center;
+    margin-top: 40px;
+}
