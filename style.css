@@ -162,3 +162,60 @@ nav ul li a:hover {
 .job-card p {
     margin-top: 20px;
 }
+
+.pricing-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.pricing-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.pricing-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pricing-card .price {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.pricing-card ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.pricing-card li {
+    margin-bottom: 0.5rem;
+}
+
+.pricing-card .button {
+    margin-top: 1rem;
+}
+
+.cta-container {
+    background-color: #26081c; 
+    color: #01baef; 
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cta-container a {
+    color: #0cbaba;  
+    text-decoration: underline;
+}
+
+.cta-container a:hover {
+    color: #01baef; 
+}
