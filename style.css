@@ -72,3 +72,33 @@ nav ul li a:hover {
     margin: 20px auto;  /* give space above and below, and center horizontally */
     text-align: center; /* center the text within the button */
 }
+
+.contact-section {
+    margin: 20px 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-info {
+    margin: 40px 0;
+}
+
+.map-placeholder {
+    border: 2px dashed #ccc;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
