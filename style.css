@@ -66,3 +66,9 @@ nav ul li a:hover {
     background-color: var(--color-dark-purple);
     color: var(--color-white);
 }
+
+.fullprivacy-button {
+    display: block;  /* make the button a full width block element */
+    margin: 20px auto;  /* give space above and below, and center horizontally */
+    text-align: center; /* center the text within the button */
+}
