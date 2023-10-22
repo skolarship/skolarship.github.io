@@ -1,3 +1,13 @@
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-blue: #01baef;
+    --color-turquoise: #0cbaba;
+    --color-dark-purple: #380036;
+    --color-medium-purple: #26081c;
+    --color-light-purple: #150811;
+}
+
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
