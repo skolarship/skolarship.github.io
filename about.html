@@ -7,70 +7,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation bar -->
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="features.html">Features</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="privacy.html">Privacy</a>
-        <a class="active" href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <header>
-        <h1>About Us</h1>
-    </header>
-    
-    <main>
-        <div class="content">
-            <div class="main-image">
-                <img src="path_to_your_main_image.jpg" alt="Main Image Description">
+    <div class="main-wrapper">
+        <!-- Navigation bar -->
+        <nav class="navbar">
+            <div class="navbar-brand">Skolarship</div>
+            <div class="navbar-links">
+                <a href="index.html">Home</a>
+                <a href="features.html">Features</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="privacy.html">Privacy</a>
+                <a class="active" href="about.html">About</a>
+                <a href="contact.html">Contact</a>
             </div>
-            <p>Main description text here...</p>
-
-            <div class="slides-container">
-                <button onclick="moveSlide(-1)" class="prev">&#10094;</button>
-
-                <div class="slides-wrapper">
-
-                    <div class="team-member">
-                        <img src="path/to/member1.jpg" alt="Member 1">
-                        <h3>Member 1</h3>
-                        <p>Short bio or description about Member 1.</p>
-                    </div>
-                    
-                    <div class="team-member">
-                        <img src="path/to/member2.jpg" alt="Member 2">
-                        <h3>Member 2</h3>
-                        <p>Short bio or description about Member 2.</p>
-                    </div>
-                    
-                    <div class="team-member">
-                        <img src="path/to/member3.jpg" alt="Member 3">
-                        <h3>Member 3</h3>
-                        <p>Short bio or description about Member 3.</p>
-                    </div>
-
-                    <div class="team-member">
-                        <img src="path/to/member4.jpg" alt="Member 4">
-                        <h3>Member 4</h3>
-                        <p>Short bio or description about Member 4.</p>
-                    </div>
-
-                    <div class="team-member">
-                        <img src="path/to/member5.jpg" alt="Member 5">
-                        <h3>Member 5</h3>
-                        <p>Short bio or description about Member 5.</p>
-                    </div>
-
+        </nav>
+        <header>
+            <h1>About Us</h1>
+        </header>
+        
+        <main>
+            <div class="content">
+                <div class="main-image">
+                    <img src="path_to_your_main_image.jpg" alt="Main Image Description">
                 </div>
+                <p>Main description text here...</p>
 
-                <button onclick="moveSlide(1)" class="next">&#10095;</button>
+                <div class="slides-container">
+                    <button onclick="moveSlide(-1)" class="prev">&#10094;</button>
+
+                    <div class="slides-wrapper">
+
+                        <div class="team-member">
+                            <img src="path/to/member1.jpg" alt="Member 1">
+                            <h3>Member 1</h3>
+                            <p>Short bio or description about Member 1.</p>
+                        </div>
+                        
+                        <div class="team-member">
+                            <img src="path/to/member2.jpg" alt="Member 2">
+                            <h3>Member 2</h3>
+                            <p>Short bio or description about Member 2.</p>
+                        </div>
+                        
+                        <div class="team-member">
+                            <img src="path/to/member3.jpg" alt="Member 3">
+                            <h3>Member 3</h3>
+                            <p>Short bio or description about Member 3.</p>
+                        </div>
+
+                        <div class="team-member">
+                            <img src="path/to/member4.jpg" alt="Member 4">
+                            <h3>Member 4</h3>
+                            <p>Short bio or description about Member 4.</p>
+                        </div>
+
+                        <div class="team-member">
+                            <img src="path/to/member5.jpg" alt="Member 5">
+                            <h3>Member 5</h3>
+                            <p>Short bio or description about Member 5.</p>
+                        </div>
+
+                    </div>
+
+                    <button onclick="moveSlide(1)" class="next">&#10095;</button>
+                </div>
             </div>
-        </div>
-        <script src="main.js"></script>
-        <footer>
-            &copy; 2023 MGACD Inc.
-        </footer>
-    </main>
+            <script src="main.js"></script>
+            <footer>
+                &copy; 2023 MGACD Inc.
+            </footer>
+        </main>
+    </div>
 </body>
 </html>

@@ -7,53 +7,56 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!-- Navigation bar -->
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="features.html">Features</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="about.html">About</a>
-        <a class="active" href="contact.html">Contact</a>
-    </nav>
-    <header>
-        <h1>Contact Us</h1>
-    </header>
-    <main>
-        <section class="contact-section">
-            <h2>Get in Touch</h2>
-            <p>We're here to help and answer any question you might have. We look forward to hearing from you.</p>
+    <div class="main-wrapper">
+        <!-- Navigation bar -->
+        <nav class="navbar">
+            <div class="navbar-brand">Skolarship</div>
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+        </nav>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <main>
+            <section class="contact-section">
+                <h2>Get in Touch</h2>
+                <p>We're here to help and answer any question you might have. We look forward to hearing from you.</p>
+                
+                <div class="contact-form">
+                    <form>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" rows="4" placeholder="Type your message here..."></textarea>
+
+                        <input type="submit" class="button" value="Submit">
+                    </form>
+                </div>
+            </section>
             
-            <div class="contact-form">
-                <form>
-                    <label for="name">Full Name:</label>
-                    <input type="text" id="name" placeholder="Enter your name">
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="Enter your email">
-
-                    <label for="message">Message:</label>
-                    <textarea id="message" rows="4" placeholder="Type your message here..."></textarea>
-
-                    <input type="submit" class="button" value="Submit">
-                </form>
-            </div>
-        </section>
-        
-        <section class="contact-info">
-            <h2>Visit Us</h2>
-            <p><strong>Address:</strong> 123 Skolarship St., University City, 12345</p>
-            <p><strong>Email:</strong> support@skolarship.com</p>
-            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
-            
-            <!-- Image Placeholder for a Map -->
-            <div class="map-placeholder">
-                <p>[Image: Map of Location]</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        &copy; 2023 MGACD Inc.
-    </footer>
+            <section class="contact-info">
+                <h2>Visit Us</h2>
+                <p><strong>Address:</strong> 123 Skolarship St., University City, 12345</p>
+                <p><strong>Email:</strong> support@skolarship.com</p>
+                <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                
+                <!-- Image Placeholder for a Map -->
+                <div class="map-placeholder">
+                    <p>[Image: Map of Location]</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            &copy; 2023 MGACD Inc.
+        </footer>
+    </div>
 </body>
 </html>

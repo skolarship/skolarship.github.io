@@ -225,13 +225,26 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.navbar-brand {
+    font-weight: bold;
+    font-size: 36px;
+    margin-right: auto;
+    color: white;
+    padding-left: 50px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px; /* Provides spacing between links */
+}
+
 .navbar {
-    display: flex;           /* Add flexbox */
-    justify-content: flex-end; 
-    overflow: hidden;
-    background-color: var(--color-dark-purple);
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will push the .navbar-brand to the left and .navbar-links to the right */
+    background-color: var(--color-dark-purple); 
+    padding: 10px;
+
 }
 
 .navbar a {
@@ -315,7 +328,6 @@ button.slide-left, button.slide-right {
     width: calc(150px * 5);  /* Assuming there are 5 team members, and each is 150px wide */
 }
 
-
 .prev, .next {
     cursor: pointer;
     background-color: rgba(0,0,0,0.5);
@@ -345,4 +357,20 @@ button.slide-left, button.slide-right {
 .slides-container .next {
     z-index: 10; /* Ensures the arrows are on top of the slides */
     position: relative; /* Necessary for z-index to take effect */
+}
+
+.main-wrapper::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px; /* Adjust this value for the rectangle's length */
+    background-color: #a4ebff;
+    z-index: -1; /* This will put the rectangle behind the content */
+}
+
+.main-wrapper {
+    position: relative; /* This is necessary for positioning the pseudo-element correctly */
 }
