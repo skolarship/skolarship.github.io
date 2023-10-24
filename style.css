@@ -20,6 +20,7 @@ header, main, footer {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    padding-top: 60px;
 }
 
 /* Navigation Styles */
@@ -218,4 +219,130 @@ nav ul li a:hover {
 
 .cta-container a:hover {
     color: #01baef; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;           /* Add flexbox */
+    justify-content: flex-end; 
+    overflow: hidden;
+    background-color: var(--color-dark-purple);
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: var(--color-dark-purple);
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+.navbar a:focus, .navbar a:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.about-content {
+    background-color: var(--color-blue);
+    padding: 20px;
+}
+
+.image-placeholder {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #e0e0e0; /* For placeholder */
+}
+
+.team-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e0e0e0; /* For placeholder */
+    margin: 0 10px;
+}
+
+button.slide-left, button.slide-right {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  /* This will make the image appear as a circle */
+    object-fit: cover;
+    margin: 20px auto;
+}
+
+.team-member {
+    text-align: center;
+    flex: 0 0 100%; /* each slide will take 100% of the container width*/
+    min-width: 100%;
+    display: inline-block;
+}
+
+.slides-wrapper {
+    display: flex;  /* This will put all team-member divs in a row */
+    transition: all 1s ease; /* This will add a smooth transition */
+    width: calc(150px * 5);  /* Assuming there are 5 team members, and each is 150px wide */
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    user-select: none;
+    transition: background-color 0.3s ease;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.slides {
+    transition: transform 0.5s ease;
+}
+
+.slides-container {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.slides-container .prev,
+.slides-container .next {
+    z-index: 10; /* Ensures the arrows are on top of the slides */
+    position: relative; /* Necessary for z-index to take effect */
 }
