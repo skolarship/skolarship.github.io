@@ -243,6 +243,7 @@ body {
     align-items: center;
     justify-content: space-between; /* This will push the .navbar-brand to the left and .navbar-links to the right */
     background-color: var(--color-dark-purple); 
+    height: 80px;
     padding: 10px;
 
 }
@@ -366,7 +367,7 @@ button.slide-left, button.slide-right {
     top: 0;
     left: 0;
     right: 0;
-    height: 300px; /* Adjust this value for the rectangle's length */
+    height: 330px; /* Adjust this value for the rectangle's length */
     background-color: #a4ebff;
     z-index: -1; /* This will put the rectangle behind the content */
 }
