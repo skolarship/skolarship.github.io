@@ -52,6 +52,22 @@
                 <div class="map-placeholder">
                     <p>[Image: Map of Location]</p>
                 </div>
+                <div class="map"></div>
+                <script>
+                    function initMap() {
+                        var uni = {lat: 45.41939150369824, lng: -75.67863340356539};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 50, 
+                            center: uni
+                        });
+                        var marker = new google.maps.Marker({
+                            position: uni, 
+                            map: map
+                        });
+                    }
+                </script>
+                <script async defer src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyDvnrsuRYLuwuyVlH5LgCJOfk-bSpGmb2Q&callback=initMap"> 
+                </script>
             </section>
         </main>
         <footer>

@@ -104,6 +104,12 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
+#map{
+    width: 60%;
+    height: 400px;
+    background-color: grey;
+}
+
 .intro-section {
     margin-bottom: 40px;
     text-align: center;
