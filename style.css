@@ -239,13 +239,15 @@ body {
 }
 
 .navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between; /* This will push the .navbar-brand to the left and .navbar-links to the right */
     background-color: var(--color-dark-purple); 
     height: 80px;
     padding: 10px;
-
 }
 
 .navbar a {
