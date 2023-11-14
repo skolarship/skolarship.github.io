@@ -233,7 +233,7 @@ body {
     color: white;
     padding-left: 50px;
     pointer-events: none;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center
 
@@ -243,6 +243,7 @@ body {
 .navbar-links {
     display: flex;
     gap: 15px; /* Provides spacing between links */
+    padding-right: 25px;
 }
 
 .navbar {
