@@ -165,7 +165,7 @@ nav ul li a:hover {
 
 .pricing-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 2rem 0;
 }
 
@@ -388,3 +388,5 @@ button.slide-left, button.slide-right {
 .main-wrapper {
     position: relative; /* This is necessary for positioning the pseudo-element correctly */
 }
+
+
