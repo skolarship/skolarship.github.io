@@ -23,10 +23,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header, main, footer {
-    max-width: 800px;
+    max-width: 80%;
     margin: 20px auto;
     padding: 20px;
-    padding-top: 60px;
+    padding-top: 215px;
 }
 
 /* Navigation Styles */
@@ -288,6 +288,12 @@ body {
     box-shadow: none;
 }
 
+.wave{
+    min-width: 100vh;
+    width: 100%;
+    position: relative;
+}
+
 .about-content {
     background-color: var(--color-blue);
     padding: 20px;
@@ -380,7 +386,7 @@ button.slide-left, button.slide-right {
     top: 0;
     left: 0;
     right: 0;
-    height: 330px; /* Adjust this value for the rectangle's length */
+    height: 750px; /* Adjust this value for the rectangle's length */
     background-color: #a4ebff;
     z-index: -1; /* This will put the rectangle behind the content */
 }
