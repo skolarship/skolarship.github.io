@@ -6,6 +6,7 @@
     --color-white: #ffffff;
     --color-blue: #01baef;
     --color-dark-purple: #380036;
+    --color-light-blue: #83c9f4;
 }
 
 /* Default Styles */
@@ -22,11 +23,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family:'barlowbold', 'krubregular' ;
 }
 
-header, main, footer {
-    max-width: 80%;
-    margin: 20px auto;
+header {
+    width: 100%;
+    height: 725px;
+    position: relative;
+}
+
+.content {
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+main{
+    max-width: 100%;
+    background: #ffffff;
+    padding-bottom: 10%;
+}
+
+footer {
+    max-width: 100%;
     padding: 20px;
     padding-top: 215px;
+    background-color: #380036;
+
 }
 
 /* Navigation Styles */
@@ -74,6 +94,23 @@ nav ul li a:hover {
     color: var(--color-white);
 }
 
+.title-button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.title-button:hover {
+    background-color: var(--color-light-blue);
+    color: var(--color-blue);
+
+}
+
 .fullprivacy-button {
     display: block;  /* make the button a full width block element */
     margin: 20px auto;  /* give space above and below, and center horizontally */
@@ -101,6 +138,7 @@ nav ul li a:hover {
 
 .contact-info {
     margin: 40px 0;
+    text-align: center;
 }
 
 .intro-section {
@@ -231,7 +269,6 @@ body {
     height:150px;
     margin-right: auto;
     color: white;
-    padding-left: 50px;
     pointer-events: none;
     display: inline-block;
     align-items: center;
@@ -288,10 +325,15 @@ body {
     box-shadow: none;
 }
 
-.wave{
+.wave svg{
     min-width: 100vh;
     width: 100%;
-    position: relative;
+    bottom:0;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .about-content {
@@ -382,17 +424,28 @@ button.slide-left, button.slide-right {
 .main-wrapper::before {
     content: "";
     display: block;
-    position: absolute;
-    top: 0;
+    position: fixed;
     left: 0;
     right: 0;
     height: 750px; /* Adjust this value for the rectangle's length */
-    background-color: #a4ebff;
+    background-image: url(/media/background.png);
+    background-size: cover;
     z-index: -1; /* This will put the rectangle behind the content */
 }
 
 .main-wrapper {
     position: relative; /* This is necessary for positioning the pseudo-element correctly */
 }
+ 
+.header-area {
+    padding-left: 150px;
+    width: 35%;
 
+}
 
+.main-title {
+    font-size: 6em; 
+    text-align: left; 
+    padding-top: 200px;
+    margin: 0;
+}
