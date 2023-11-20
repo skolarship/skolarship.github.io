@@ -30,13 +30,12 @@ header {
 }
 
 .content {
-    width: 80%;
-    margin: 0px auto;
+    margin: 0 20% 0 20%;
 }
 
 
 main{
-    max-width: 100%;
+   /*max-width: 100%; */
     background: #ffffff;
     padding-bottom: 10%;
 }
@@ -171,18 +170,18 @@ nav ul li a:hover {
 
 .hero {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 .hero-image {
     border: 2px dashed #ccc;
-    padding: 30px;
+    padding: 5px;
     text-align: center;
-    margin-bottom: 20px;
+    display: inline-block;
 }
 
 .highlights {
-    margin: 40px 0;
+    margin: 40px 0 80px 0;
     text-align: center;
 }
 
@@ -387,7 +386,8 @@ button.slide-left, button.slide-right {
 .slides-wrapper {
     display: flex;  /* This will put all team-member divs in a row */
     transition: all 1s ease; /* This will add a smooth transition */
-    width: 100%;  /* Assuming there are 5 team members, and each is 150px wide */
+    width:90%;  /* Assuming there are 5 team members, and each is 150px wide */
+    text-align: center;
 }
 
 .prev, .next {
@@ -448,4 +448,5 @@ button.slide-left, button.slide-right {
     text-align: left; 
     padding-top: 200px;
     margin: 0;
+    color: #380036;
 }
