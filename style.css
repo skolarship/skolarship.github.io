@@ -390,7 +390,7 @@ button.slide-left, button.slide-right {
 .slides-wrapper {
     display: flex;  /* This will put all team-member divs in a row */
     transition: all 1s ease; /* This will add a smooth transition */
-    width: 90%;  /* Assuming there are 5 team members, and each is 150px wide */
+    width: 100%;  /* Assuming there are 5 team members, and each is 150px wide */
     text-align: center;
 }
 
