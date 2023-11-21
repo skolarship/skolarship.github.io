@@ -38,15 +38,20 @@ header {
 main{
    /*max-width: 100%; */
     background: #ffffff;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 footer {
     max-width: 100%;
-    padding: 20px;
-    padding-top: 215px;
+    padding: 50px;
+    padding-top: 80px;
     background-color: #380036;
+    text-align:center;
 
+}
+
+footer p {
+    color: #FFFFFF;
 }
 
 /* Navigation Styles */
@@ -467,4 +472,10 @@ button.slide-left, button.slide-right {
     border: 2px dashed #01baef;
     padding: 5px;
     border-radius: 75px;
+}
+
+.footer-links {
+    color:#ffffff;
+    text-decoration: underline;
+
 }
