@@ -21,6 +21,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:'barlowbold', 'krubregular' ;
+    color: #380036;
 }
 
 header {
@@ -30,7 +31,7 @@ header {
 }
 
 .content {
-    margin: 0 20% 0 20%;
+    margin: 0 10% 0 10%;
 }
 
 
@@ -117,7 +118,8 @@ nav ul li a:hover {
 }
 
 .contact-section {
-    margin: 20px 0;
+    padding-top: 50px;
+    width: 45%;
 }
 
 .contact-form label {
@@ -130,14 +132,15 @@ nav ul li a:hover {
 .contact-form textarea {
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    margin: 5px 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 .contact-info {
-    margin: 40px 0;
     text-align: center;
+    padding-top: 50px;
+    width: 50%;
 }
 
 .intro-section {
@@ -165,7 +168,7 @@ nav ul li a:hover {
 
 .cta-section {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .hero {
@@ -174,14 +177,14 @@ nav ul li a:hover {
 }
 
 .hero-image {
-    border: 2px dashed #ccc;
+    border: 2px dashed #01baef;
     padding: 5px;
     text-align: center;
     display: inline-block;
 }
 
 .highlights {
-    margin: 40px 0 80px 0;
+    margin: 80px 0px 0;
     text-align: center;
 }
 
@@ -198,6 +201,7 @@ nav ul li a:hover {
 
 .job-card p {
     margin-top: 20px;
+    margin:0;
 }
 
 .pricing-section {
@@ -209,7 +213,7 @@ nav ul li a:hover {
 .pricing-card {
     background-color: #FFFFFF;
     border-radius: 8px;
-    padding: 1rem;
+    padding: 3rem;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     width: 30%;
     text-align: center;
@@ -386,7 +390,7 @@ button.slide-left, button.slide-right {
 .slides-wrapper {
     display: flex;  /* This will put all team-member divs in a row */
     transition: all 1s ease; /* This will add a smooth transition */
-    width:90%;  /* Assuming there are 5 team members, and each is 150px wide */
+    width:100%;  /* Assuming there are 5 team members, and each is 150px wide */
     text-align: center;
 }
 
@@ -449,4 +453,17 @@ button.slide-left, button.slide-right {
     padding-top: 200px;
     margin: 0;
     color: #380036;
+}
+
+.delivery {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.anything-images{
+    width: 100%; 
+    height:auto; 
+    border: 2px dashed #01baef;
+    padding: 5px;
+    border-radius: 75px;
 }
