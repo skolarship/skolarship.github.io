@@ -76,10 +76,9 @@ nav {
 .navbar-brand {
   font-weight: bold;
   font-size: 1.4rem;
-  color: white;
-  pointer-events: none;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .navbar-brand img {
@@ -106,10 +105,10 @@ nav {
   font-size: 1.2rem;
 }
 
-.navbar a:hover {
+.navbar-links a:hover {
   background-color: #ddd;
   color: black;
-}
+  }
 
 .navbar a:focus,
 .navbar a:active {
