@@ -35,8 +35,15 @@ h6 {
   color: #380036;
 }
 
+header {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  
+}
+
 main {
-  background: #ffffff;
+  background: #dec5e3;
   padding-bottom: 5%;
 }
 
@@ -65,7 +72,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 20px 3%;
   position: relative;
 }
 
@@ -123,6 +130,17 @@ nav {
   border-bottom: 2px solid white;
 }
 
+.wave svg{
+  min-width: 100vh;
+  width: 100%;
+  bottom:0;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 /* Hamburger Icon (hidden by default) */
 .hamburger {
   display: none;
@@ -153,12 +171,16 @@ nav {
   .hamburger {
     display: block;
   }
+
+  .wave svg {
+    display:none;
+  }
 }
 
 /* Button Styles */
 /* Button Styles */
 .button {
-  background-color: var(--color-white);
+  background-color: #dec5e3;
   color: var(--color-dark-purple);
   padding: 10px 15px;
   text-decoration: none;

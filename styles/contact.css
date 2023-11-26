@@ -4,9 +4,10 @@
     height: 750px;
     background-image: url(/media/background.png);
     background-size: cover;
-    z-index: -1;
     width: 100%;
-  }
+    position: fixed;
+    z-index:-1 ;
+    }
   
   .header-area {
     max-width: 1400px;
@@ -50,9 +51,6 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  form {
-    margin-bottom: 50px;
   }
   
   .contact-form textarea {

@@ -4,8 +4,9 @@
     height: 750px;
     background-image: url(/media/background.png);
     background-size: cover;
-    z-index: -1;
     width: 100%;
+    position: fixed;
+    z-index:-1 ;
   }
   
   .header-area {
@@ -40,7 +41,8 @@
   
   .privacy-intro {
     margin: 0 auto;
-    max-width: 800px;
+    padding-top: 0;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     gap: 20px;
