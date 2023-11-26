@@ -1,0 +1,117 @@
+.main-header-content {
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 750px;
+    background-image: url(/media/background.png);
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+  }
+  
+  .header-area {
+    max-width: 1400px;
+  }
+  
+  .header-area {
+    max-width: 600px;
+    padding-left: 150px;
+    font-size: 1.3rem;
+  }
+  
+  .main-title {
+    font-size: 6em;
+    text-align: left;
+    padding-top: 200px;
+    margin: 0;
+    color: #380036;
+  }
+  
+  .content {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  
+  .pricing-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 3rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .pricing-card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 200px;
+  }
+  
+  .pricing-card .price {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .pricing-card ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .pricing-card .button {
+    margin-top: 1rem;
+  }
+  
+  .cta-container {
+    background-color: #26081c;
+    color: #01baef;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-container a {
+    color: #0cbaba;
+    text-decoration: underline;
+  }
+  
+  .cta-container a:hover {
+    color: #01baef;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .main-title {
+      font-size: 5em;
+    }
+  
+    .header-area {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .main-title {
+      font-size: 3em;
+    }
+  
+    .header-area {
+      padding-left: 0;
+      width: 100%;
+    }
+  }

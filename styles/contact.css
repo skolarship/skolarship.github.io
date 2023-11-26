@@ -1,0 +1,111 @@
+.main-header-content {
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 750px;
+    background-image: url(/media/background.png);
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+  }
+  
+  .header-area {
+    max-width: 1400px;
+  }
+  
+  .header-area {
+    max-width: 600px;
+    padding-left: 150px;
+    font-size: 1.3rem;
+  }
+  
+  .main-title {
+    font-size: 6em;
+    text-align: left;
+    padding-top: 200px;
+    margin: 0;
+    color: #380036;
+  }
+  
+  .content {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  form {
+    margin-bottom: 50px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  .visit-us-info {
+    margin-bottom: 10px;
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .map {
+    height: 400px;
+    width: 100%;
+    border: none;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .improve-section {
+    width: 900px;
+  }
+  .improve {
+    width: 100%;
+    border: none;
+    height: 500px;
+  }
+  @media screen and (max-width: 1000px) {
+    .main-title {
+      font-size: 5em;
+    }
+  
+    .header-area {
+      padding-left: 0;
+      width: 100%;
+    }
+  
+    .contact-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .main-title {
+      font-size: 3em;
+    }
+  
+    .header-area {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
