@@ -52,7 +52,10 @@
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  
+  form {
+    background-color : #dec5e3;
+    }
+    
   .contact-form textarea {
     resize: vertical;
   }
